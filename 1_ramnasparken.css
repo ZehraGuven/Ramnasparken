@@ -1,0 +1,158 @@
+*{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+aside{
+  position: absolute;
+  width: 15%;
+  right: 230px;
+  border-radius: 5px;
+  border-style: groove;
+  border-color:#3D9970;
+  border-width: 2px;
+  padding: 0px 15px 20px;
+  text-align: center;
+}
+
+nav{
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  background-color: #3D9970;
+}
+
+li{
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 30px 17px 30px;
+}  
+
+header{
+  padding:10px 30px;
+  background-color: #AAAAAA;
+}
+
+div.container{
+  position: relative;
+  padding-top:50px ;
+  margin:0 ;
+  height: 600px;
+  background-color: #AAAAAA; 
+}
+ 
+footer{
+  position: absolute;
+  bottom:-30px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: #3D9970;  
+}
+
+.andrasidan{
+  position: absolute;
+  bottom: -210px;
+  width: 100%;
+  text-align: center;
+  background-color: #3D9970;
+}
+
+main{
+  position: absolute;
+  border-style: groove;
+  border-color:#3D9970;
+  border-width: 2px;
+  width: 40%;
+  height: 375px;
+  border-radius: 5px;
+  padding: 15px 10px 10px;
+  margin-left: 230px;
+}
+
+.andrabilden{
+  padding-top:40px;
+  padding-bottom: 20px;
+}
+
+h2{
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+h3, h4, h5{
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+a:hover{
+  color: rgb(179, 54, 54);
+}
+
+a.active{
+  border-style: groove;
+  border-color:#3D9970;
+  background-color: #AAAAAA;
+  padding: 10px 30px 16px 30px;
+}
+
+input[type=text],
+ [type=email]{
+  width: 70%;
+  padding: 10px 5px 10px;
+  margin: 5px 0 15px;
+  border-style: groove;
+  border-color:#3D9970;
+  background-color: #AAAAAA;
+  border-width: 2px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+textarea {
+  width: 70%;
+  height: 100px;
+  padding: 10px 5px 10px;
+  margin: 5px 0 15px;
+  box-sizing: border-box;
+  border-style: groove;
+  border-color:#3D9970;
+  background-color: #AAAAAA;
+  border-width: 2px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+h6{
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+}
+
+input[type=button]{
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding:10px; 
+  border-color: #3D9970;
+  background-color: #AAAAAA;
+}
+
+input:hover{
+  color:#3D9970;
+}
+
+.formulär{
+  position: absolute;
+  width: 500px;
+  left: 30%;
+  background-color:  #AAAAAA;
+  border-style: groove;
+  border-color:#3D9970;
+  border-width: 2px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
